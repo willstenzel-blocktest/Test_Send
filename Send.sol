@@ -7,6 +7,6 @@ contract Send {
     }
     
     function test_send() public {
-        address(this).send(msg.value);
+        address(this).send(10000);
     }
 }
